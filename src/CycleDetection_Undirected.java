@@ -45,6 +45,5 @@ public class CycleDetection_Undirected {
         createGraph(graph);
 
         System.out.println(isCycle(graph,0,new boolean[v],0));
-
     }
 }
