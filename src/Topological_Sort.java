@@ -45,6 +45,5 @@ public class Topological_Sort {
         for(int i=0;i<v;i++){
             System.out.print(stack.pop());
         }
-
     }
 }
