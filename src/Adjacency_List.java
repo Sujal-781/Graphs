@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Adjacency_List {
     public static void main(String[] args) {
-        int n=5,m=6;
+        int n = 5, m = 6;
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
-        for(int i=0;i<=n;i++){
+        for (int i = 0; i <= n; i++) {
             list.add(new ArrayList<>());
         }
         list.get(1).add(2);
@@ -24,7 +24,7 @@ public class Adjacency_List {
         list.get(5).add(2);
         list.get(5).add(4);
 
-        for(int i=1;i<=n;i++){
+        for (int i = 1; i <= n; i++) {
 //            for(int j=0;j<list.get(i).size();j++){
 //                System.out.print(list.get(i).get(j)+" ");
 //            }
